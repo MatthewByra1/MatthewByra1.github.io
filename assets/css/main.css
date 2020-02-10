@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 /*
 	Massively by HTML5 UP
@@ -23,7 +24,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -148,8 +150,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
+		font-family: 'Lato', sans-serif;
 		font-size: 1rem;
 		line-height: 2.375;
 	}
@@ -176,13 +177,12 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 		margin: 0 0 2rem 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-weight: 900;
+		font-family: 'Lato', sans-serif;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
@@ -198,18 +198,21 @@ input, select, textarea {
 
 	h1 {
 		font-size: 4rem;
+		font-weight: bold;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
 
 	h2 {
 		font-size: 1.75rem;
+		font-weight: bold;
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
 	}
 
 	h3 {
 		font-size: 1.25rem;
+		font-weight: bold;
 		margin: 0 0 1.5rem 0;
 	}
 
@@ -2905,7 +2908,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header {
@@ -2947,7 +2950,7 @@ input, select, textarea {
 
 		header.major {
 			margin: 0 0 4rem 0;
-			text-align: center;
+			text-align: left;
 		}
 
 			header.major > :last-child {
@@ -2956,7 +2959,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -3133,7 +3136,7 @@ input, select, textarea {
 			margin-left: -2px;
 			min-width: 3rem;
 			position: relative;
-			text-align: center;
+			text-align: left;
 			text-decoration: none;
 			text-transform: uppercase;
 		}
@@ -3309,7 +3312,7 @@ input, select, textarea {
 		transition: opacity 1s ease, transform 1s ease;
 		position: relative;
 		cursor: default;
-		text-align: center;
+		text-align: left;
 		z-index: 1;
 		min-height: 100vh;
 	}
@@ -3395,7 +3398,7 @@ input, select, textarea {
 			font-size: 1.25rem;
 			font-style:  normal;
 			margin-top: -0.25rem;
-			text-align: center;
+			text-align: left;
 		}
 
 		#intro + #header {
@@ -3519,7 +3522,7 @@ input, select, textarea {
 		height: 20rem;
 		padding-bottom: 8rem;
 		position: relative;
-		text-align: center;
+		text-align: left;
 		z-index: 2;
 	}
 
@@ -3776,7 +3779,7 @@ input, select, textarea {
 			}
 
 		#main > footer {
-			text-align: center;
+			text-align:left;
 		}
 
 		#main > .post {
@@ -3794,7 +3797,7 @@ input, select, textarea {
 			}
 
 			#main > .post.featured {
-				text-align: center;
+				text-align: left;
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -3837,7 +3840,7 @@ input, select, textarea {
 			-webkit-align-items: -webkit-stretch;
 			-ms-align-items: -ms-stretch;
 			align-items: stretch;
-			text-align: center;
+			text-align: left;
 			width: 100%;
 			padding: 0;
 		}
@@ -3867,7 +3870,7 @@ input, select, textarea {
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
-				text-align: center;
+				text-align: left;
 			}
 
 				#main > .posts > article > :last-child {
