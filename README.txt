@@ -1,5 +1,2 @@
-Edited Massively webpage for personal use.
-Credits:
-	AJ
-	aj@lkn.io | @ajlkn
-	Matthew Byra 
+Portfolio webpage for personal use.
+Thanks to AJ aj@lkn.io | @ajlkn for initial portfolio code. 
